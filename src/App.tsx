@@ -5,7 +5,7 @@ import NotFound from "./pages/NotFound";
 
 const App = () => (
   <HelmetProvider>
-    <BrowserRouter basename="/lmm-advertorial-golden-template">
+    <BrowserRouter basename="/lmm-mind-bloom-mushroom-gummies-advertorial">
       <Routes>
         <Route path="/" element={<Index />} />
         <Route path="*" element={<NotFound />} />
